@@ -6,11 +6,10 @@ import {
   DiBootstrap,
   DiJavascript1,
   DiReact,
-  DiNodejsSmall,
-  DiMongodb,
-  DiGithubBadge,
+
 } from "react-icons/di"
 import Reveal from "./Reveal"
+import { SiTailwindcss } from "react-icons/si"
 
 const skills = [
     {
@@ -18,21 +17,13 @@ const skills = [
       technologies: [
         { name: 'HTML', icon: <DiHtml5 className='text-orange-600' /> },
         { name: 'CSS', icon: <DiCss3 className='text-blue-600' /> },
-        { name: 'Sass', icon: <DiSass className='text-pink-600' /> },
+        { name: 'Tailwind', icon: <SiTailwindcss className='text-pink-600' /> },
         { name: 'Bootstrap', icon: <DiBootstrap className='text-purple-600' /> },
         { name: 'JavaScript', icon: <DiJavascript1 className='text-yellow-500' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
       ],
     },
-    {
-      category: 'Fullstack',
-      technologies: [
-        { name: 'Node Js', icon: <DiNodejsSmall className='text-green-500' /> },
-        { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
-        { name: 'React', icon: <DiReact className='text-blue-500' /> },
-        { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
-      ],
-    },
+    
   ]
 
 const Skills = () => {
@@ -41,7 +32,7 @@ const Skills = () => {
         <Reveal>
         <h2 className="text-3xl font-bold mb-4 text-center">Skills</h2>
         <p className="text-center mb-8">
-            I worked on various frontend and fullstack projects. Check them <a href="#" className="underline">there</a>.
+            I worked on various frontend projects. Check them <a href="#" className="underline">there</a>.
         </p>
 
         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8

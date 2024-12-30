@@ -4,25 +4,27 @@ import Reveal from './Reveal'
 
 const experiences = [
     {
-        company: 'First Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
+        company: 'Techizons Pvt Ltd',
+        period: '2024 - Present',
+        description: 'Techizons is a dynamic web designing company that focuses on empowering freshers with the opportunity to embark on their journey into the digital world. Known for its innovative approach and creative solutions, Techizons specializes in crafting visually appealing and user-friendly websites tailored to meet diverse business needs.'
+
+
       },
-      {
-        company: 'Second Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
-      },
-      {
-        company: 'Third Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
-      },
-      {
-        company: 'Fourth Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
-      },
+      // {
+      //   company: 'Second Company',
+      //   period: '2020 - Present',
+      //   description: 'Description of your experience in this company.',
+      // },
+      // {
+      //   company: 'Third Company',
+      //   period: '2020 - Present',
+      //   description: 'Description of your experience in this company.',
+      // },
+      // {
+      //   company: 'Fourth Company',
+      //   period: '2020 - Present',
+      //   description: 'Description of your experience in this company.',
+      // },
 ]
 
 

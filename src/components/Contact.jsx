@@ -12,34 +12,33 @@ const Contact = () => {
                 <div className="text-gray-300 my-3">
                     <h3 className="text-4xl font-semibold mb-5">About <span>Me</span></h3>
                     <p className="text-justify leading-7 w-11/12 mx-auto">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                        eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                        ratione quibusdam doloribus pariatur consequuntur sint.
-                        Reprehenderit cupiditate possimus facere quasi voluptatem?
+                    I am a frontend developer passionate about crafting visually appealing and user-friendly web interfaces. With expertise in React, JavaScript, and Tailwind CSS, I turn complex ideas into functional and seamless digital experiences. I prioritize innovation, accessibility, and performance in every project, ensuring the final product meets both user and client expectations.  
+
+I thrive on problem-solving and enjoy bridging the gap between design and functionality. Whether collaborating with teams or working independently, I bring creativity and technical expertise to deliver exceptional results. Constantly learning and evolving, I stay updated with the latest web development trends to create impactful digital solutions.
                     </p>
                 </div>
 
                 <div className="flex mt-10 items-center gap-7">
                     <div className="bg-gray-800/40 p-4 rounded-lg">
-                        <h3 className="md:text-4xl text-2xl font-semibold text-white">11
+                        <h3 className="md:text-4xl text-2xl font-semibold text-white">10
                             <span>+</span>
                         </h3>
                         <p className="text-xs md:text-base"><span>Projects</span></p>
                     </div>
-
+{/* 
                     <div className="bg-gray-800/40 p-5 rounded-lg">
                         <h3 className="md:text-4xl text-2xl font-semibold text-white">5
                             <span>+</span>
                         </h3>
                         <p className="text-xs md:text-base"><span>years of experience</span></p>
-                    </div>
+                    </div> */}
 
-                    <div className="bg-gray-800/40 p-5 rounded-lg">
+                    {/* <div className="bg-gray-800/40 p-5 rounded-lg">
                         <h3 className="md:text-4xl text-2xl font-semibold text-white">30
                             <span>+</span>
                         </h3>
                         <p className="text-xs md:text-base"><span>happy clients</span></p>
-                    </div>
+                    </div> */}
 
                 </div>
 

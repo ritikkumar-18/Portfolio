@@ -36,9 +36,10 @@ const Navbar = () => {
         <div className='max-w-[1300px] mx-auto  flex justify-between text-gray-200
         text-xl items-center px-12 h-20'>
 
-            <a href="#">J.Doe</a>
+            <a href="#">Ritik</a>
 
             <ul className='hidden md:flex gap-12 z-10 cursor-pointer'>
+            <li><Link to="hero" smooth={true} offset={50} duration={500}>Home</Link></li>
                 <li><Link to="skills" smooth={true} offset={50} duration={500}>About</Link></li>
                 <li><Link to="portfolio" smooth={true} offset={50} duration={500}>Portfolio</Link></li>
                 <li><Link to="contact" smooth={true} offset={50} duration={500}>Contact</Link></li>
@@ -55,6 +56,7 @@ const Navbar = () => {
             className='fixed left-0 top-0 w-full min-h-screen bg-gray-900 z-40'
             >
                 <ul className='font-semibold text-4xl space-y-8 mt-24 text-center'>
+                <li><Link to="hero" onClick={closeNav} smooth={true} offset={50} duration={500}>Home </Link></li>
                     <li><Link to="skills" onClick={closeNav} smooth={true} offset={50} duration={500}>About</Link></li>
                     <li><Link to="portfolio" onClick={closeNav} smooth={true} offset={50} duration={500}>Portfolio</Link></li>
                     <li><Link to="contact" onClick={closeNav} smooth={true} offset={50} duration={500}>Contact</Link></li>

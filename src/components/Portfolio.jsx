@@ -1,11 +1,13 @@
 import React from 'react';
 import Code from "../assets/Code.png"
-import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
+import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 import Travel from "../assets/Travel.png"
 import Notebook from "../assets/Notebook.png"
 import Recruit from "../assets/Recruit.png"
 import Weather from "../assets/Weather.png"
+import Brainwave from "../assets/Brainwave.png"
+import Coffee from "../assets/coffee.png"
 
 const projects = [
     {
@@ -55,7 +57,25 @@ const projects = [
         github: "#",
       },
     },
-  ]
+    { 
+      img:Brainwave,
+      title:"BrainWave",
+      description:"Brainwave is an innovative platform designed to transform the way individuals and businesses interact with AI. Built with cutting-edge machine learning algorithms and natural language processing, Brainwave provides a seamless and intelligent communication experience, enabling smarter, faster, and more efficient conversations.",
+      links:{
+        site:"https://brainwave-xi-beryl.vercel.app/",
+        github:"https://github.com/ritikkumar-18/Brainwave-.git",
+      },
+    }, 
+    {
+      img:Coffee,
+      title:"Coffe Shop",
+      description:"An Online Coffee Shop is a digital platform that offers a variety of coffee and coffee-related products for purchase through the internet. This modern approach to buying coffee provides convenience, accessibility, and a broader selection of products, including freshly brewed coffee, beans, brewing equipment, and accessories.",
+     links:{
+      site:"https://coffee-coral-delta.vercel.app/",
+      github :"https://github.com/ritikkumar-18/Coffee.git",
+    },
+  },
+]
 
 const Portfolio = () => {
   return (
